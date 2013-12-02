@@ -1,0 +1,17 @@
+doctype 5
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/960.css')
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    script(src='/javascripts/aes.js')
+    script(src='/javascripts/sha256.js')
+    script(src='/javascripts/jquery.js')
+    script(src='/socket.io/socket.io.js')
+    script(src='/javascripts/ss.js')
+    script.
+      var socket = io.connect('!{app.get('env') === 'development' ? 'http://localhost' : 'http://url.com'}');
+  body
+    .container_16
+      block content
+

@@ -1,0 +1,47 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.center {
+  text-align: center;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.login {
+  border: 1px solid black;
+  background-color: #DDD;
+}
+
+.login input {
+  margin: 10px auto;
+}
+
+.hidden {
+  display: none;
+}
+
+textarea {
+  width: 100%;
+  height: 250px;
+}
+
+.create_area {
+  border: 1px solid black;
+  background-color: #DDD;
+}
+
+.spacing {
+  padding-top: 25px;
+}

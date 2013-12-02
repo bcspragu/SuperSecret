@@ -1,0 +1,33 @@
+extends layout
+
+block content
+  .grid_16.center
+    h1= title
+  .clear
+  .grid_16.center
+    p Welcome to #{title}
+  .clear
+  .grid_10.prefix_3.suffix_3.main
+    .login
+      .room_login.center
+        input(type="text", placeholder="Room", id="roomID")
+      .passkey_login.center
+        input(type="password", placeholder="Passkey", id="passkey")
+      .center
+        button#enter Enter Room
+    .messages.hidden.center
+      textarea
+      input(type="text", id="entry")
+      button#send Send
+  .clear
+  .spacing
+  .grid_10.prefix_3.suffix_3
+    .create_area.center
+      p.hidden
+        ="ID: "
+        span.roomID
+      p.hidden
+        ="Key: "
+        span.passkey
+      button#room_create Create Room
+

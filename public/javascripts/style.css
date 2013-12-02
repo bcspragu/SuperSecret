@@ -1,0 +1,137 @@
+body {
+  padding: 0px 0px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.header {
+  width: 100%;
+  padding: 5px;
+  overflow:hidden;
+  margin: -10px 0px 10px -10px;
+  padding: 8px 30px 5px 0px;
+
+  text-shadow: 0 1px 0 #fff;
+  border-bottom: 1px solid #e5e5e5;
+  min-width: 1000px;
+  background-color: #f2f2f2;
+  background-image: -moz-linear-gradient(#f9f9f9, #f2f2f2);
+  background-image: -webkit-linear-gradient(#f9f9f9, #f2f2f2);
+  background-image: linear-gradient(#f9f9f9, #f2f2f2);
+  background-repeat: repeat-x;
+}
+
+.small_margin_left {
+	margin-left:10px;
+}
+
+#new_game {
+  background-color: #F0F0FF;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.field {
+  display: block;
+  padding: 3px;
+}
+
+.label {
+  display: inline-block;
+  padding: 5px 0px 5px 0px;
+}
+
+.box {
+  width: 100%;
+  height: 100%;
+  border: 1px solid gray;
+  padding: 10px;
+  background-color: #F2F2F2;
+}
+
+.striped_table {
+  width: 100%;
+  border: 1px solid black;
+  border-spacing: 0px;
+}
+
+.striped_table th {
+  border-bottom: 1px solid #888;
+  padding: 6px;
+}
+
+.striped_table td { 
+  line-height: 1.428571429;
+  vertical-align: top;
+  padding:6px;
+  border-top: 1px solid #ddd;
+}
+
+.striped_table tr:nth-child(odd)> td {
+  background-color: #f9f9f9;
+}
+
+.left {
+  float:left;
+}
+
+.right {
+  float:right;
+}
+
+#breadcrumbs {
+  padding-top: 8px;
+}
+
+#breadcrumbs ul
+{
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+#breadcrumbs ul li
+{
+  display:inline;
+  background-image: url(/images/right.gif);
+  background-repeat: no-repeat;
+  background-position:1px 1px; 
+  padding-left: 20px;
+  font-size: 14px; 
+}
+
+#breadcrumbs ul li a
+{
+  color: #000;
+}
+
+#user_status {
+  padding-top: 8px;
+}
+
+#game_title{
+  float: left;
+}
+
+#game_turn{
+  float: right;
+}
+
+.black_player{
+  float: left;
+}
+
+.white_player{
+  float: right;
+}
+
+.players_small{
+  padding-top: 5px;
+}
+
+.players_large{
+  padding-top: 20px;
+}
